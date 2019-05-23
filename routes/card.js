@@ -1,6 +1,6 @@
 const express=require('express')
 const route=express();
-var cardSchema = require('../Common/schemas/cardSchema');
+var cardSchema = require('../common/schemas/cardSchema');
 route.use(express.json());
 
 route.post('/',(req,res)=>{
